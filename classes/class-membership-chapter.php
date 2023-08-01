@@ -215,7 +215,7 @@ class Membership_Chapter {
 	public static function show_extra_profile_fields( $user ) {
 		$chapters = Membership_Chapter::getAllChapters();
 		?>
-		<h3><?php _e('Chapter', 'pmpro');?></h3>
+		<h2><?php _e('Chapter', 'pmpro');?></h2>
 		<?php
 			//if no chapters yet, bail
 			if(empty($chapters)) {
